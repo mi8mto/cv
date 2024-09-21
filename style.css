@@ -1,0 +1,216 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ff3333;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*--------------------*/
+html,
+body {
+  background-color: #b0b0b0;
+  font-family: Montserrat;
+  color: #fff;
+  font-size: 13px;
+}
+p {
+  font-family: Montserrat;
+}
+h1 {
+  font-family: Bebas Neue;
+  font-size: 48px;
+  margin: 30px 0px 20px 0px;
+}
+h2 {
+  font-family: Bebas Neue;
+  font-size: 21px;
+  margin: 0px 0px 30px 0px;
+}
+h3 {
+  font-family: Bebas Neue;
+  font-size: 16px;
+}
+.wrapper {
+  min-width: 100%;
+  min-height: 100%;
+  padding: 20px 0px;
+}
+.container_sv {
+  min-width: 700px;
+  max-width: 700px;
+  max-height: 960px;
+  min-height: 960px;
+  background-color: #eeeeee;
+  margin: 0px auto;
+  border-radius: 35px;
+}
+header {
+  position: absolute;
+  margin: 5px 30px;
+  display: inline-block;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.left_block {
+  width: 35%;
+  height: 960px;
+  background-color: #505050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foto {
+  align-self: center;
+  margin: 80px 0px 60px 0px;
+}
+.foto img {
+  width: 150px;
+  border-radius: 50%;
+}
+.left_block_container {
+  width: 80%;
+}
+.right_block {
+  width: 65%;
+  height: 960px;
+  color: #505050;
+}
+.right_block_container {
+  margin: 40px 20px 40px 20px;
+}
+.about_me {
+  margin: 15px 0px 30px 0px;
+}
+.about_me p span {
+  font-weight: 700;
+}
+.right_box {
+  margin: 45px 0px 15px 0px;
+}
+.left_box {
+  margin: 45px 0px 15px 0px;
+}
+.work_experience_head,
+.my_projects_head,
+.other_information_head,
+.my_hobbies_head,
+.contact_me_head,
+.skills_head,
+.Follow_me {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0px 7px 0px 0px;
+}
+.follow_me_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon_follow_me {
+  width: 25px;
+  height: 25px;
+}
+.head {
+  margin: 10px 0px 10px 0px;
+  border-bottom: #505050 solid 1px;
+}
+.head_left {
+  margin: 10px 0px 10px 0px;
+  border-bottom: #fff solid 1px;
+}
+ul {
+  margin: 0px 0px 0px 23px;
+}
+.code {
+  margin: 10px 0px 5px 25px;
+}
+footer {
+  display: inline-block;
+  position: relative;
+  bottom: 40px;
+  left: 380px;
+  width: 200px;
+  color: #000000;
+}
+.github {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
